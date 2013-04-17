@@ -1,0 +1,26 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>expect</Title>
+    <Author>Jed Hunsaker</Author>
+    <Shortcut>expect</Shortcut>
+    <Description>Code snippet for chai expect</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>object</ID>
+        <ToolTip>Object to test</ToolTip>
+        <Default>object</Default>
+      </Literal>
+      <Literal>
+        <ID>toWhat</ID>
+        <ToolTip>What it should do</ToolTip>
+        <Default>equal</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="JavaScript"><![CDATA[expect( $object$ ).to.$toWhat$;$end$]]></Code>
+  </Snippet>
+</CodeSnippet>
